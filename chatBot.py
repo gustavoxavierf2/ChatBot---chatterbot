@@ -21,4 +21,4 @@ while True:
     if float(resposta.confidence) > 0.7:
         print('python: ', resposta)
     else:
-        print('n tenho certeza')
+        print('não tenho certeza')
