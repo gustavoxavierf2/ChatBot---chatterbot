@@ -24,7 +24,7 @@ for dados in conversa:
         perguntas = perguntas_respostas['pergunta']
         resposta = perguntas_respostas['resposta']
         for pergunta in perguntas:
-            trainer.train([pergunta,resposta])
+            trainer.train([pergunta, resposta])
 
 while True:
     botResposta = bot.get_response(input('voce: ').lower())
